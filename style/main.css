@@ -1,0 +1,539 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color:  #070707;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  color: #172915;
+}
+
+.main__header {
+  background-color:#449E2F;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center;
+  overflow: hidden;
+  padding-bottom: 275px;
+}
+
+.header__title {
+  padding-top: 182px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 69px;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.header__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.header__detail a{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 267px;
+  height: 58px;
+  background: #135C23;
+  padding: 15px 52px 15px 52px;
+}
+
+.about__chair {
+  background: #E5E5E5;
+  overflow: hidden;
+}
+.about__chair_title {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 49px;
+  color: #135C23;
+}
+.about__chair_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.about__chair_descript {
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 29px;
+  color: #172915;
+  padding-left: 100px;
+}
+.about__chair_link {
+  padding-top: 30px;
+}
+.about__chair_link a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 267px;
+  height: 58px;
+  background: #135C23;
+  padding: 15px 52px 15px 52px;
+}
+
+.advantage__cards {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  text-align: center;
+  
+}
+.advantage__cards h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 59px;
+}
+
+.advantage__cards p {
+  font-size: 20px;
+line-height: 29px;
+}
+.advantage__cards img {
+  padding-top: 20px;
+}
+
+.advantage__card_1 {
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 23%;
+  height: 267px;
+  
+}
+.advantage__card_2 {
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 23%;
+  height: 267px;
+}
+.advantage__card_3 {
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 23%;
+  height: 267px;
+}
+.advantage__card_4 {
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 23%;
+  height: 267px;
+}
+
+.contact__us {
+  background-color:  rgba(18, 75, 30, 0.2);
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.contact__title {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 49px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.flex__wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex__wrap_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.our__contacts img{
+  padding-top: 7px;
+}
+.contact__location {
+  width: 570px;
+  height: 172px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact__email {
+  width: 270px;
+  height: 162px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.contact__phone {
+  width: 270px;
+  height: 162px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.communication__form {
+  width: 570px;
+  height: 376px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.25);
+}
+
+.flex__wrap_form {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.communication__Message {
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.form__button {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.communication__name input {
+ width: 250px;
+ height: 40px;
+}
+.communication__phone input {
+  width: 250px;
+  height: 40px;
+}
+.communication__Message input {
+  width: 535px;
+  height: 150px;
+}
+
+.form__button button{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 267px;
+  height: 58px;
+  background: #135C23;
+  padding: 15px 52px 15px 52px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+ .footer {
+  background: #1E4727;
+  overflow: hidden;
+ }
+
+ .footer__title {
+   padding-top: 50px;
+   padding-bottom: 50px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+ }
+
+ .flex__footer {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 50px;
+ }
+ 
+ .footer__information {
+  width: 369px;
+  height: 326px;
+  background: #113218;
+  text-align: center;
+  font-size: 17px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding-top: 20px;
+ }
+.social__icon {
+  padding-top: 40px;
+
+}
+ .footer__map img {
+   width: 550px;
+   height: 346px;
+ }
+
+ /* end main*/
+
+ .main__chair_title {
+   padding-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 49px;
+  color: #172915;
+ }
+ .main__chair_description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #172915;
+  text-align: justify;
+  padding-bottom: 100px;
+ }
+ .main__chair_description a {
+  text-decoration: underline;
+ }
+ .main__chair_detail {
+  background: #E5E5E5;
+  overflow: hidden;
+ }
+
+ /* entrant */
+
+ .main__for_entrant {
+  background: #E5E5E5;
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 22px;
+  color: #172915;
+ }
+
+ .for_entrant_title {
+  padding-top: 50px;
+  font-size: 25px;
+  line-height: 49px;
+  color: #172915;
+ }
+
+ .entrant__document_item {
+   list-style: decimal;
+ }
+
+ .entrant__information_item {
+   list-style: decimal;
+ }
+
+ .entrant__information_list {
+   padding-bottom: 50px;
+ }
+
+ /* gallery */
+
+ .main__gallery {
+  background: #E5E5E5;
+  overflow: hidden;
+ }
+ .main__gallery_title {
+  font-size: 30px;
+  line-height: 49px;
+  color: #172915;
+  padding: 30px 0 20px 0;
+ }
+
+ .gallery__table td {
+   padding: 10px;
+ }
+
+ .gallery__table {
+   padding-bottom: 50px;
+ }
+
+ /* professor */
+
+ .professor__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 49px;
+  padding: 30px 0 20px 0;
+ }
+ 
+ .main__professor {
+  background: #E5E5E5;
+  overflow: hidden;
+  padding-bottom: 70px;
+ }
+
+ .professor__wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .professor__card {
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+   padding: 20px;
+ }
+ /* ************ */
+.registration {
+  /* display: none; */
+  text-align: center;
+  width: 514px;
+  height: 479px;
+  background: #179332;
+}
+.registration input {
+  margin-bottom: 30px;
+  width: 399px;
+  height: 59px;
+  background: #FFFFFF;
+  border: 1px solid #149D33;
+  box-sizing: border-box;
+}
+.registration button {
+  width: 399px;
+  height: 48px;
+  background: #135C23;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin-top: 50px;
+}
+.registration p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+/* **************** */
+.log_in {
+  /* display: none; */
+  text-align: center;
+  width: 514px;
+  height: 479px;
+  background: #179332;
+}
+.log_in input {
+  margin-bottom: 30px;
+  width: 399px;
+  height: 59px;
+  background: #FFFFFF;
+  border: 1px solid #149D33;
+  box-sizing: border-box;
+}
+.log_in button {
+  width: 399px;
+  height: 48px;
+  background: #135C23;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin-top: 50px;
+}
+.log_in p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+ /*  *******************/
+
+ @media screen and (max-width: 1150px){
+  .flex__wraper {
+    padding-left: 100px; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .our__contacts {
+    padding-bottom: 40px;
+  }
+
+} 
+
+  @media screen and (max-width: 975px) {
+  .about__chair_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage__cards {
+  padding-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+.advantage__card_1 {
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 50%;
+  height: 287px;
+  
+}
+.advantage__card_2 {
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 50%;
+  height: 287px;
+}
+.advantage__card_3 {
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 50%;
+  height: 287px;
+}
+.advantage__card_4 {
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.29);
+  width: 50%;
+  height: 287px;
+}
+.flex__footer {
+  flex-wrap: wrap;
+}
+.footer__information {
+  margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 930px) {
+  .professor__card {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .professor__wrapper {
+    flex-wrap: wrap;
+  }
+}
+
