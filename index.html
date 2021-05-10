@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Кафедра ІНформаційних систем та технологій</title>
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/adaptive.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
     rel="stylesheet">
@@ -16,10 +17,10 @@
 <body>
   <header class="header">
     <div class="container">
-      <nav class="main__nav">
+      <nav class="nav">
         <ul class="nav__list">
           <a href="index.html">
-            <li class="nav__item"><img src="img/logo.png" alt="Logo"></li>
+            <li class="nav__item_logo"><img src="img/logo.png" alt="Logo"></li>
           </a>
           <a href="gallery.html">
             <li class="nav__item">Галерея</li>
@@ -36,43 +37,35 @@
         </ul>
       </nav>
     </div>
-  </header>
-  
-  <div class="main__header">
-    <div class="container">
-      <div class="header__title">
-        <h1>
-          Кафедра інформаційних систем<br> та технологій
-        </h1>
-      </div>
-      <div class="header__subtitle">
-        <p>
-          Єдина кафедра ІСТ-126 в Полтаві
-        </p>
-      </div>
-      <div class="header__detail">
-        <a href="chair_detail.html">
-          Детальніше
-        </a>
+
+    <div class="header__content">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__title">
+            <h1>Кафедра інформаційних систем<br> та технологій</h1>
+          </div>
+          <div class="header__subtitle">
+            <p>Єдина кафедра ІСТ-126 в Полтаві</p>
+          </div>
+          <div class="header__detail link_style">
+            <a href="chair_detail.html">Детальніше</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-
+  </header>
 
   <main class="main__content">
-    <section class="about__chair">
+    <section class="about">
       <div class="container">
-        <div class="about__chair_title">
-          <h2>
-            Про кафедру
-          </h2>
+        <div class="about__title">
+          <h2>Про кафедру &#9998;</h2>
         </div>
-        <div class="about__chair_wrapper">
-          <div class="about__chair_img">
-            <img src="img/about.png" alt="IT treees">
+        <div class="about__wrapper">
+          <div class="about__wrapper-img">
+            <img class="about__img" src="img/about.png" alt="IT treees" width="550px">
           </div>
-          <div class="about__chair_descript">
+          <div class="about__wrapper-descript">
             <p>
               Кафедра інформаційних систем та технологій функціонує у складі Навчально-наукового інституту економіки,
               управління, права та інформаційних технологій. Кафедру очолює кандидат технічних наук, доцент Уткін Юрій
@@ -80,50 +73,94 @@
               інженера, 3 оператори ЕОМ. Серед викладачів: 2 доктора наук, 12 кандидатів наук, 9 доцентів, 1 старший
               науковий співробітник.
             </p>
-            <div class="about__chair_link">
-              <a href="chair_detail.html">
-                Детальніше
-              </a>
+            <div class="about__link link_style">
+              <a href="chair_detail.html">Детальніше</a>
             </div>
           </div>
         </div>
-        <div class="advantage__cards">
-            <div class="advantage__card_1">
-              <img src="img/Vector.png" alt="">
-              <h2>21</h2>
-              <p>
-                Навчальний працівник на кафедрі
-              </p>
-            </div>
-            <div class="advantage__card_2">
-              <img src="img/Vector2.png" alt="">
-              <h2>93</h2>
-              <p>
-                Студенти навчається на кафедрі
-              </p>
-            </div>
-            <div class="advantage__card_3">
-              <img src="img/Vector3.png" alt="">
-              <h2>7</h2>
-              <p>
-                Стейкхолдерів співпрацює з кафедрою
-              </p>
-            </div>
-            <div class="advantage__card_4">
-              <img src="img/Vector4.png" alt="">
-              <h2>15000</h2>
-              <p>
-                Вартість навчання за рік
-              </p>
-            </div>
-        </div>  
       </div>
     </section>
 
-    <section class="contact__us">
+    <section class="advantages">
+      <div class="container">
+        <div class="advantage__cards">
+          <div class="advantage__item">
+            <img src="img/Vector.png" alt="">
+            <h2>21</h2>
+            <p>Навчальний працівник на кафедрі</p>
+          </div>
+          <div class="advantage__item">
+            <img src="img/Vector2.png" alt="">
+            <h2>93</h2>
+            <p>Студенти навчається на кафедрі</p>
+          </div>
+          <div class="advantage__item">
+            <img src="img/Vector3.png" alt="">
+            <h2>7</h2>
+            <p>Стейкхолдерів співпрацює з кафедрою</p>
+          </div>
+          <div class="advantage__item">
+            <img src="img/Vector4.png" alt="">
+            <h2>15000</h2>
+            <p>Вартість навчання за рік</p>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <div class="tab">
+            <div class="tab__images">
+              <img src="img/gallery10.png">
+            </div>
+            <div class="tab__content">
+              <p>
+                111Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod assumenda rem molestiae hic vitae
+                numquam!
+              </p>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="tab__images">
+              <img src="img/gallery9.png">
+            </div>
+            <div class="tab__content">
+              <p>
+                222Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod assumenda rem molestiae hic vitae
+                numquam!
+              </p>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="tab__images">
+              <img src="img/gallery8.png">
+            </div>
+            <div class="tab__content">
+              <p>
+                333Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod assumenda rem molestiae hic vitae
+                numquam!
+              </p>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="tab__images">
+              <img src="img/gallery7.png">
+            </div>
+            <div class="tab__content">
+              <p>
+                444Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod assumenda rem molestiae hic vitae
+                numquam!
+              </p>
+            </div>
+          </div>
+
+    </section>
+
+    <section class="contacts">
       <div class="container">
         <div class="contact__title">
-          <h2>Зв’яжіться з нами</h2>
+          <h2>Зв’яжіться з нами &#9742;</h2>
         </div>
         <div class="flex__wraper">
           <div class="our__contacts">
@@ -134,24 +171,20 @@
                 36000, вулиця Сковороди, 1/3, Полтава, Полтавська область
               </p>
             </div>
-             <div class="flex__wrap_contact">
+            <div class="flex__wrap_contact">
               <div class="contact__email">
                 <img src="img/email.png" alt="">
                 <h2>E-mail</h2>
-                <p>
-                  informac@pdaa.edu.ua
-                </p>
+                <p>informac@pdaa.edu.ua</p>
               </div>
               <div class="contact__phone">
                 <img src="img/phone.png" alt="">
                 <h2>Телефон</h2>
-                <p>
-                  (0532) 60-82-31
-                </p>
+                <p>(0532) 60-82-31</p>
               </div>
             </div>
           </div>
-          
+
           <div class="communication__form">
             <form action="#" method="POST">
               <div class="flex__wrap_form">
@@ -161,8 +194,8 @@
                 <div class="communication__phone">
                   <input type="tel" name="phone" placeholder="Ваш телефон">
                 </div>
-              </div>             
-              <div class="communication__Message">
+              </div>
+              <div class="communication__message">
                 <input type="text" name="Message" placeholder="Повідомлення">
               </div>
             </form>
@@ -171,18 +204,16 @@
             </div>
           </div>
         </div>
-      </section>
-    </main>
+    </section>
 
     <footer class="footer">
       <div class="container">
-        <div class="footer__title">
-          <h2>
-            Кафедра інформційних систем та технологій
-          </h2>
-        </div>
+
         <div class="flex__footer">
-          <div class="footer__information"> 
+          <div class="footer__information">
+            <div class="footer__title">
+              <h2>Кафедра інформційних систем та технологій</h2>
+            </div>
             <p>Понеділок-П’ятниця: 8:00 - 19:00</p>
             <p>Субота-Неділля: Вихідний</p>
             <p>36003, м. Полтава,<br>вул. Сковороди, 1/3.</p>
@@ -192,40 +223,41 @@
               <a href="#"><img src="img/instagram.png" alt="instagram icon"></a>
             </div>
           </div>
-          
+
           <div class="footer__map">
             <img src="img/map.jpg" alt="map location">
           </div>
         </div>
-        </div>  
+      </div>
     </footer>
 
     <div class="registration">
-      <p>
+      <h2>
         Заповніть форму, щоб зареєструватися на сайті кафедри
-      </p>  
+      </h2>
       <form action="">
         <input type="text" placeholder="Ваше ПІБ">
-        <input type="e-mail"placeholder="Ваш e-mail">
+        <input type="e-mail" placeholder="Ваш e-mail">
         <input type="password" placeholder="Ваш пароль">
       </form>
-      <button>
-        Зареєструватися
-     </button>
+      <button>Зареєструватися</button>
     </div>
 
     <div class="log_in">
-      <p>
+      <h2>
         Заповніть форму, щоб зайти в особистий кабінет
-      </p>  
+      </h2>
       <form action="">
         <input type="email" placeholder="Ваш e-mail">
         <input type="password" placeholder="Ваш пароль">
       </form>
-      <button>
-        Увійти
-     </button>
+      <button>Увійти</button>
     </div>
+
 </body>
+
+
+
+<script src="js/script.js"></script>
 
 </html>
