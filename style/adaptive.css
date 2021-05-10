@@ -98,7 +98,7 @@
   width: 300px;
  }
 
- .footer__map img {
+ .footer__map iframe {
   width: 500px;
  }
  .header__wrapper {
@@ -169,7 +169,15 @@
   }
 
   .tab {
-    display: none;
+    width: 500px;
+  }
+  .tab img {
+    width: 400px;
+  }
+  .tab__content {
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 23px;
   }
 
   .contact__title {
@@ -368,7 +376,7 @@
     flex-direction: column;
   }
 
-  .footer__map img {
+  .footer__map iframe {
   width: 300px;
   }
 

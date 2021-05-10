@@ -339,7 +339,7 @@ list-style: none;
   padding-top: 20px;
 
 }
- .footer__map img {
+ .footer__map iframe {
   width: 550px;
  }
 
