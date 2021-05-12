@@ -30,10 +30,11 @@
           </a>
           <a href="for_entrant.html">
             <li class="nav__item">Абітурієнтам</li>
-          </a>
-          <a href="">
-            <li class="nav__item"> Увійти</li>
-          </a>
+          </a>          
+          <li>
+            <a href="" class="nav__item"><span id="modal__trigger-log">Вхід |</span></a>
+            <a href=""  class="nav__item"><span id="modal__trigger-reg">Реєстрація</span></a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -146,7 +147,7 @@
             </div>
             <div class="tab__content">
               <p>
-                За даними портала DOU станом на 2020 рік, всі зарплати вказані в доларах США за курсом міжбанку після сплати податків. Медіанна зарплата розробника в Україні становить $ 2500 в місяць. Найвища медіанна зарплата у System Architect - $ 5300.
+                За даними портала DOU, станом на 2020 рік. Всі зарплати вказані в доларах США за курсом міжбанку після сплати податків. Медіанна зарплата розробника в Україні становить $ 2500 в місяць. Найвища медіанна зарплата у System Architect - $ 5300.
                 Найнижча - у Intern / Trainee ($ 350). 
               </p>
             </div>
@@ -228,34 +229,39 @@
         </div>
       </div>
     </footer>
-
-    <div class="registration">
-      <h2>
-        Заповніть форму, щоб зареєструватися на сайті кафедри
-      </h2>
-      <form action="">
-        <input type="text" placeholder="Ваше ПІБ">
-        <input type="e-mail" placeholder="Ваш e-mail">
-        <input type="password" placeholder="Ваш пароль">
-      </form>
-      <button>Зареєструватися</button>
+    
+    <div class="modal-reg hide">
+      <div class="registration">
+        <h2>
+          Заповніть форму, щоб зареєструватися на сайті кафедри
+        </h2>
+        <form action="">
+          <input type="text" placeholder="Ваше ПІБ">
+          <input type="e-mail" placeholder="Ваш e-mail">
+          <input type="password" placeholder="Ваш пароль">
+        </form>
+        <button>Зареєструватися</button>
+        <div class="modal__close" id="close-modal-reg">&times;</div>
+      </div>
     </div>
-
-    <div class="log_in">
-      <h2>
-        Заповніть форму, щоб зайти в особистий кабінет
-      </h2>
-      <form action="">
-        <input type="email" placeholder="Ваш e-mail">
-        <input type="password" placeholder="Ваш пароль">
-      </form>
-      <button>Увійти</button>
+    
+    <div class="modal-log hide">
+      <div class="modal__log">
+        <div class="modal__content">
+          <h2>
+            Заповніть форму, щоб зайти в особистий кабінет
+          </h2>
+          <form action="">
+            <input type="email" placeholder="Ваш e-mail">
+            <input type="password" placeholder="Ваш пароль">
+          </form>
+          <button>Увійти</button>
+          <div class="modal__close" id="close-modal-log">&times;</div> 
+        </div>     
+      </div>
     </div>
-
+    
+    <script src="js/tabs.js"></script>
+    <script src="js/modal.js"></script>
 </body>
-
-
-
-<script src="js/script.js"></script>
-
 </html>

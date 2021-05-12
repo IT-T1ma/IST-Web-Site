@@ -37,8 +37,7 @@ window.addEventListener('DOMContentLoaded', function () {
                     showTabContent(i);
                 }
             });
-
-        }
+        }                                                                   
     });
 
 });
