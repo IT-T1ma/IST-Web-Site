@@ -13,6 +13,7 @@
     font-size: 25px;
 
   }
+
   .about__wrapper-descript {
     width: 50%;
     padding-left: 5%;
@@ -130,6 +131,12 @@
     width: 500px;
   }
   
+    .prev {
+    display: none;
+  }
+  .next {
+    display: none;
+  }
   .about__wrapper {
     display: flex;
     width: 650px;
