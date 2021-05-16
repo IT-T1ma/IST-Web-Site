@@ -25,7 +25,6 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     modalTriggerReg.addEventListener('click', (e) => {
-        console.log("tima");
         e.preventDefault();
         modalReg.classList.toggle('hide');
         document.body.style.overflow = "hidden";

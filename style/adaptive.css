@@ -112,6 +112,9 @@
   .container {
     width: 500px;
   }
+  .toggle-btn {
+    display: block;
+  }
   .professor__card {
     flex-wrap: wrap;
   }
